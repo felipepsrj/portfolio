@@ -107,6 +107,13 @@ body {
     width: 50%;
 }
 
+.apresentacao__imagem__curriculo {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .apresentacao__link_curriculo {
     text-decoration: none;
     color: var(--cor-terciaria);
@@ -122,6 +129,7 @@ body {
     font-weight: 400;
 }
 
+
 @media (max-width: 1200px) {
     .cabecalho {
         padding: 6% 0%;
@@ -130,7 +138,7 @@ body {
 
     .cabecalho__menu {
         justify-content: center;
-        gap: 20px;
+        gap: 40px;
     }
 
     .apresentacao {
